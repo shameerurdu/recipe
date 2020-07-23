@@ -1,0 +1,396 @@
+body{
+	color: #000;
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar-dark  {
+    color: #fff!important;
+    background-color: transparent!important;
+    font-weight: 900;
+}
+.sidebar{
+
+      background: url(https://images.unsplash.com/photo-1488116593952-937c38246bbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1553&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    padding: 4vw 0 0 3vw!important;
+
+
+}
+.blog-details{
+}
+
+.sidebar .nav-item {
+	font-size: 1.8vw;
+	color: #fff!important;
+	font-weight: 900;
+	line-height: .5vw;
+
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+	font-size: 5.5vw!important;
+    line-height: 4vw!important;
+    font-family: 'Montserrat', sans-serif!important;
+    text-transform: uppercase;
+    border:none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+
+
+.page-content{
+	background: #fff;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.nav-link:hover{
+	text-decoration: underline;
+}
+.navbar-brand{
+	font-weight: 900;
+	font-size:2vw;
+	margin-bottom: 6vw;
+}
+.navbar-toggler{
+    border: none;
+}
+.sizing{
+	font-size: 1.5rem!important;
+}
+.rating
+{
+	font-size: 1.2rem;
+
+
+}
+.checkedrating{
+	color: #FFD900;
+
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    color: #fff!important;
+}
+.recipe-list{
+	padding-left: 30px;
+}
+.recipe-info, .recipe-title h1{
+	display: inline!important;
+}
+.recipe-title{
+	max-width: 100%;
+	word-wrap: break-word;
+	padding: 20px 0px 20px 5px;
+}
+.recipe-title a{
+	color: inherit;
+	text-decoration: none;
+
+}
+.recipe-title a:hover{
+}
+
+.recipe-title h1{
+	font-size: 5.5vw;
+    line-height: 4vw;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.recipe-info{
+	display:flex!important;
+    align-items:center;
+    font-size: 1vw;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+/* tagspage*/
+
+.tag{
+	font-size: 62px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    }
+
+.tag a{
+	color: #000;
+}
+/*about page*/
+.about-img img{
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.about a{
+	color: #000;
+}
+
+/*authors page */
+.author-img img{
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.social{
+	text-align: center;
+	margin-bottom: 38px;
+	font-size: 18px;
+}
+.social a{
+	color: #000;
+}
+/* contact page*/
+.father{
+    border-style: solid;
+    border-color: #D3D3D3;
+    border-width: 1px  0   0  1px;
+  }
+.young{
+    border-color: #D3D3D3;    
+    border-style: solid;
+    border-width: 0  1px 1px  0;
+    padding: 20px;
+}
+.address{
+	margin-top: 30px;
+}
+.contactContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#contactMe {
+  padding-top: 15px;
+}
+
+#contactMe h2, h4{
+  margin-bottom: 1em;
+}
+
+#contactMe input[type="text"],
+#contactMe input[type="email"],
+#contactMe textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contactMe textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#contactSubmit {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #000;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#contactSubmit:hover {
+  background: #333;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contactMe input:focus,
+#contactMe textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+
+fieldset {
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-before: 0;
+  -webkit-padding-start: 0;
+  -webkit-padding-end: 0;
+  -webkit-padding-after: 0;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+/* post page*/
+.post-content .container-fluid{
+	padding: 0px;
+}
+.post-title h1{
+}
+.post-cover img{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 10px 0 20px 0;
+}
+
+.shortlinkers a{
+	color: #fff;
+	background: #000;
+	padding: 5px;
+	font-family: 'Montserrat', sans-serif;
+	margin-right: 5px;
+
+}
+.shortlinkers a:hover{
+	background: #9A9A9A;
+}
+.recipe-ingredients{
+	color: #000;
+	padding: 60px;
+	margin-bottom: 15px;
+}
+
+.checkboxes ul{
+	list-style-type: none;
+	padding-inline-start:5px;
+}
+.checkboxes ul li {
+     line-height: 40px;
+     font-size: 26px;
+}
+.recipe-time{
+    background: #000;
+    color: #fff;
+ 	margin: 10px 0 10px 0;
+ 	padding: 20px;
+
+}
+.recipe-time ul{
+	list-style-type: none;
+	padding-inline-start:0px;
+	margin:0 auto;
+}
+.recipe-time ul li {
+
+}
+.post-img {
+	max-width: 100%;
+    padding-left: 0px;
+}
+.ads{
+	background: lightgrey;
+}
+.nopadd{
+	padding-left: 0px;
+}
+.recipe-directions{
+}
+.recipe-directions h4{
+}
+
+/* responsive elements */
+@media (min-width: 768px) {
+    aside {
+        height: 100%;
+    }
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px)  {
+.recipe-list{
+	padding-left: 0px;
+}
+.page-content{
+	margin-top: 60px!important;
+}
+.navbar-brand{
+	margin-bottom: 0;
+	font-size: 28px;
+}
+.navbar-toggler{margin-top: 4px;
+}
+.sidebar{
+	padding: 0!important;
+}
+.checkboxes ul li {
+     line-height: 30px;
+     font-size: 16px;
+}
+.sidebar .nav-item {
+	font-size: 24px;
+	line-height: 20px;
+
+}
+.recipe-title{
+   padding: 8px 0px 8px 15px;
+   max-width:100%;
+}
+.has-search .form-control , .recipe-title h1{
+	font-size: 42px!important;
+    line-height: 30px;
+}
+.recipe-info{
+	font-size: 8px;
+}
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+.navbar-toggler{
+	margin-top: 4px;
+	font-size: 2rem;
+}
+.recipe-title{
+    padding-right: 5px;
+
+}
+
+.recipe-info{
+
+    padding-left: 0px!important;
+
+}
+
+
+.recipe-ingredients{
+	padding: 20px;
+}
+
+}
